@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+.button-1 button {
+    background-color: hsl(215, 87%, 59%);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 4px 20px;
+}
+
+.button-2 button {
+    background-color: transparent;
+    border-color: white;
+    padding: 4px 20px;
+    border-radius: 5px;
+
+}
