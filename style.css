@@ -31,14 +31,12 @@ body {
     padding: 32px 25px;
     margin: 60px auto;
     border-radius: 4px;
-
 }
 
 .bottom-left-text {
     display: flex;
     flex-direction: column;
     color: white;
-
 }
 
 .bottom-left-text p {
@@ -87,4 +85,46 @@ body {
    font-weight: 700;
    font-style: normal;
    
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin: 50px;
+}
+
+.info-images {
+    display: flex;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+.image-1, 
+.image-2, 
+.image-3, 
+.image-4 {
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    height: 200px;
+    text-align: center;
+}
+
+.placeholder {
+    border: #3882F6 solid 3px;
+    height: 200px;
+    width: auto;
+    border-radius: 15px;
+}
+
+.info-images p {
+    margin: 5px 0px 0px 0px;
+    color: rgb(88, 88, 88);
+    font-size: 15px;
+}
+
+.info-container h4 {
+    font-size: 27px;
 }
