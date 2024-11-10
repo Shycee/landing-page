@@ -171,3 +171,27 @@ body {
     justify-content: center;
 
 }
+
+.header-links {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-evenly;
+}
+
+a, ul {
+    text-decoration: none;
+    color: #e5e7ebe6;
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    font-size: 12px; 
+}
+
+.header {
+    color: #F9FAF8;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+
