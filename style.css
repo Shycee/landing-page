@@ -10,7 +10,8 @@ body {
     border: none;
     border-radius: 6px;
     color: white;
-    padding: 4px 20px;
+    padding: 5px 20px;
+    margin-top: 10px;
 }
 
 .button-2 button {
@@ -91,8 +92,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px;
-    margin: 50px;
+    margin-top: 10px;
+    margin-bottom: 90px;
 }
 
 .info-images {
@@ -127,4 +128,46 @@ body {
 
 .info-container h4 {
     font-size: 27px;
+}
+
+.main-placeholder {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 90px;
+    gap: 60px;
+}
+
+.main-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-left h3 {
+    padding: 0px;
+    margin: 0px;
+    color: #F9FAF8;
+    font-size: 35px;
+
+}
+
+.main-left p {
+    margin: 0px;
+    padding: 0px;
+    color: #e5e7ebe6;
+    font-size: 16px;
+    font-weight: 200;
+
+}
+
+.image-placeholder {
+    background-color: #6e767e;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 185px;
+    justify-content: center;
+
 }
